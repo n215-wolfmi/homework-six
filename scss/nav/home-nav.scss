@@ -1,0 +1,48 @@
+.home-nav {
+    max-width: $site-width;
+    width: 75%;
+    height: 80px;
+    margin: $center;
+    border-bottom: 2px solid $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+    .home-logo {
+        width: 92px;
+        height: 42px;
+        border: solid $site-white 2px;
+        color: $site-white;
+        text-align: center;
+        padding: 4px;
+        font-family: "GillSansReg";
+        font-size: 20px;
+    }
+
+    .home-links {
+        a {
+            color: $site-white;
+            text-decoration: none;
+            font-family: "GillSansReg";
+            font-size: 15px;
+        }
+        .home-span {
+            color: $site-white;
+            margin: 0 20px;
+        }
+    }
+}
+
+//when the screen hits the new max width, change the navbar layout
+@media screen and (max-width: 820px) {
+    .home-nav {
+        flex-direction: column;
+
+        .home-links {
+            margin-top: 13px;
+            margin-bottom: 20px;
+        }
+    }
+}

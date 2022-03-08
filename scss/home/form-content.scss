@@ -1,0 +1,127 @@
+.form-content {
+    max-width: 75%;
+    min-height: 200px;
+    margin: $center;
+    margin-top: 50px;
+
+    .form-title {
+        font-family: "ProximaNovaCnThin";
+        font-size: 60px;
+    }
+
+    .top-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .short-holder {
+            height: 58px;
+            width: 42%;
+            padding-left: 10px;
+            border: 2px solid $site-blue;
+            font-family: "GillSansReg";
+            font-size: 15px;
+        }
+        
+        .long-holder {
+            height: 58px;
+            width: 56%;
+            padding-left: 10px;
+            border: 2px solid $site-blue;
+            font-family: "GillSansReg";
+            font-size: 15px;
+        }
+    }
+
+    .check {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+
+        h3 {
+            font-family: "GillSansReg";
+            font-size: 18px;
+            font-weight: 100;
+            width: 15%;
+            margin-right: 50px;
+        }
+
+        .check-in-out {
+            width: 100%;
+
+            input {
+                font-family: "GillSansReg";
+                font-size: 18px;
+                height: 58px;
+                padding-left: 10px;
+                border: 2px solid $site-blue;
+            }
+
+            .icon {
+                margin-left: -35px;
+            }
+        }
+
+        
+    }
+
+    .dropbox-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;;
+        height: 58px;
+        width: 100%;
+    
+        .drop-title {
+            font-family: "GillSansReg";
+            font-size: 18px;
+        }
+    
+        .dropbox {
+            display: flex;
+            height: 58px;
+            width: 103px;
+            border: 2px solid $site-blue;
+    
+            .drop-desc {
+                font-family: "GillSansReg";
+                font-size: 18;
+                text-align: center;
+                margin: auto;
+            }
+    
+            i {
+                margin: 13px auto;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .message-box {
+        font-family: "GillSansReg";
+            font-size: 18px;
+            margin-top: 20px;
+            width: 100%;
+            height: 192px;
+            padding-left: 10px;
+            padding-bottom: 130px;
+            border: 2px solid $site-blue;
+    }
+
+    .submit {
+        font-family: "GillSansReg";
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+        background-color: $site-blue;
+        border: none;
+        width: 100%;
+        height: 60px;
+        border-radius: 25px;
+        margin-top: 37px;
+    }
+}

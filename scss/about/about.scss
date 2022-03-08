@@ -1,0 +1,85 @@
+.about {
+    max-width: $site-width;
+    margin: $center;
+    //75% of the maximum $site-width, applies to everything in the about section
+    //allows about section to scale as the page is resized
+    width: 75%; 
+
+    .about-header { 
+        margin-top: 110px;
+        margin-bottom: 95px;
+
+        .about-title {
+            font-size: 60px;
+            font-family: 'Proxima-Nova-ExCn-Thin';
+        }
+
+        hr {
+            color: $site-black;
+            width: 171px;
+            margin-bottom: 37px;
+            margin-top: -16px;
+        }
+
+        p {
+            font-family: 'GillSansReg';
+            font-size: 16px;
+        }
+    }
+
+    .about-client-quotes {
+        margin-bottom: 180px;
+
+        .client-quote-title {
+            font-size: 40px;
+            font-family: 'Proxima-Nova-ExCn-Thin';
+        }
+
+        hr {
+            color: $site-black;
+            width: 255px;
+            margin-bottom: 37px;
+            margin-top: -12px;
+        }
+
+        .client-box {
+            max-width: 722px;
+            display: flex;
+            position: relative;
+            margin-top: 37px;
+
+            .client-image {
+                width: 260px;
+                height: 150px;
+                margin-right: 21px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .client-quote {
+                max-width: 440px;
+                margin-bottom: 20px;
+
+                p {
+                    font-family: 'GillSansReg';
+                    font-style: italic;
+                    font-size: 16px;
+                }
+            }
+
+            .client-name {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: $site-blue;
+                font-family: 'Proxima-Nova-ExCn-Thin';
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
+

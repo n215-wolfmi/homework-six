@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: ProximaNovaExCnThin;
+  src: url(../css/fonts/Proxima-Nova-ExCn-Thin.otf);
+}
+@font-face {
+  font-family: ProximaNovaCnThin;
+  src: url(../css/fonts/Proxima-Nova-Cond-Thin.otf);
+}
+@font-face {
+  font-family: GillSansIt;
+  src: url(../css/fonts/Gill-Sans-Italic.ttf);
+}
+@font-face {
+  font-family: GillSansReg;
+  src: url(../css/fonts/Gill-Sans.ttf);
+}
+.home-nav {
+  max-width: 980px;
+  width: 75%;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.home-nav .home-logo {
+  width: 92px;
+  height: 42px;
+  border: solid #FFFFFF 2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4px;
+  font-family: "GillSansReg";
+  font-size: 20px;
+}
+.home-nav .home-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+.home-nav .home-links .home-span {
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .home-nav {
+    flex-direction: column;
+  }
+  .home-nav .home-links {
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
+}
+nav {
+  max-width: 980px;
+  width: 75%;
+  margin: 0 auto;
+  height: 80px;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: solid black 2px;
+  color: #000000;
+  text-align: center;
+  padding: 4px;
+  font-family: "GillSansReg";
+  font-size: 20px;
+}
+nav .links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+nav .links span {
+  color: #000000;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 820px) {
+  nav {
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  nav .links {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    line-height: 30px;
+  }
+}
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+}
+
+.form-content {
+  max-width: 75%;
+  min-height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.form-content .form-title {
+  font-family: "ProximaNovaCnThin";
+  font-size: 60px;
+}
+.form-content .top-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.form-content .top-boxes .short-holder {
+  height: 58px;
+  width: 42%;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+.form-content .top-boxes .long-holder {
+  height: 58px;
+  width: 56%;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+.form-content .check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+.form-content .check h3 {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  font-weight: 100;
+  width: 15%;
+  margin-right: 50px;
+}
+.form-content .check .check-in-out {
+  width: 100%;
+}
+.form-content .check .check-in-out input {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  height: 58px;
+  padding-left: 10px;
+  border: 2px solid #79ADDC;
+}
+.form-content .check .check-in-out .icon {
+  margin-left: -35px;
+}
+.form-content .dropbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 58px;
+  width: 100%;
+}
+.form-content .dropbox-container .drop-title {
+  font-family: "GillSansReg";
+  font-size: 18px;
+}
+.form-content .dropbox-container .dropbox {
+  display: flex;
+  height: 58px;
+  width: 103px;
+  border: 2px solid #79ADDC;
+}
+.form-content .dropbox-container .dropbox .drop-desc {
+  font-family: "GillSansReg";
+  font-size: 18;
+  text-align: center;
+  margin: auto;
+}
+.form-content .dropbox-container .dropbox i {
+  margin: 13px auto;
+  font-size: 25px;
+}
+.form-content .message-box {
+  font-family: "GillSansReg";
+  font-size: 18px;
+  margin-top: 20px;
+  width: 100%;
+  height: 192px;
+  padding-left: 10px;
+  padding-bottom: 130px;
+  border: 2px solid #79ADDC;
+}
+.form-content .submit {
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #79ADDC;
+  border: none;
+  width: 100%;
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 37px;
+}
+
+.info-box {
+  margin: 0 auto;
+  color: #FFFFFF;
+  width: 370px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.info-box .ban-title {
+  height: 68px;
+  width: 147px;
+  margin: auto;
+  padding-top: 172px;
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  font-weight: 100;
+}
+.info-box .ban-desc {
+  padding-top: 90px;
+  font-family: "GillSansIt";
+  font-size: 20;
+}
+.info-box .read-more {
+  background-color: #79ADDC;
+  color: #FFFFFF;
+  width: 121px;
+  height: 40px;
+  margin-top: 25px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "GillSansReg";
+  font-size: 15px;
+}
+
+.triple-box {
+  max-width: 818px;
+  min-height: 304px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+.triple-box .box-title {
+  text-transform: uppercase;
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+}
+.triple-box .box-desc {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+}
+.triple-box .learn-more {
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #79ADDC;
+  border: none;
+  width: 133px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 55px;
+}
+.triple-box .country-box1 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+}
+.triple-box .country-box2 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+}
+.triple-box .country-box3 {
+  width: 236px;
+  height: 304px;
+  margin-top: -60px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+}
+
+@media screen and (max-width: 870px) {
+  .triple-box {
+    max-width: 236px;
+    margin: 0 auto;
+    display: block;
+  }
+  .triple-box .country-box1 {
+    margin-bottom: 100px;
+  }
+  .triple-box .country-box2 {
+    margin-bottom: 100px;
+  }
+}
+footer {
+  max-width: 1280px;
+  width: 100%;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+footer .footer-container {
+  margin: 0 auto;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+  max-width: 980px;
+  width: 75%;
+}
+footer .footer-container .logo {
+  width: 92px;
+  height: 42px;
+  border: solid white 2px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "GillSansReg";
+  font-size: 20px;
+}
+footer .footer-container .copy {
+  font-family: "GillSansReg";
+  font-size: 12px;
+}
+footer .footer-container .socials {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 550px) {
+  footer {
+    height: 190px;
+  }
+  footer .footer-container {
+    flex-direction: column;
+    width: 75%;
+  }
+  footer .footer-container .copy {
+    margin-top: 20px;
+  }
+  footer .footer-container .socials {
+    margin-top: 20px;
+  }
+}
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 75%;
+}
+.about .about-header {
+  margin-top: 110px;
+  margin-bottom: 95px;
+}
+.about .about-header .about-title {
+  font-size: 60px;
+  font-family: "Proxima-Nova-ExCn-Thin";
+}
+.about .about-header hr {
+  color: #000000;
+  width: 171px;
+  margin-bottom: 37px;
+  margin-top: -16px;
+}
+.about .about-header p {
+  font-family: "GillSansReg";
+  font-size: 16px;
+}
+.about .about-client-quotes {
+  margin-bottom: 180px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 40px;
+  font-family: "Proxima-Nova-ExCn-Thin";
+}
+.about .about-client-quotes hr {
+  color: #000000;
+  width: 255px;
+  margin-bottom: 37px;
+  margin-top: -12px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-top: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+  overflow: hidden;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .client-quote p {
+  font-family: "GillSansReg";
+  font-style: italic;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79ADDC;
+  font-family: "Proxima-Nova-ExCn-Thin";
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

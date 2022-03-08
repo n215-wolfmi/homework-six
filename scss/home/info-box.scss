@@ -1,0 +1,37 @@
+.info-box {
+    margin: 0 auto;
+    color: $site-white;
+    width:  370px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .ban-title {
+        height: 68px;
+        width: 147px;
+        margin: auto;
+        padding-top: 172px;
+        font-family: "ProximaNovaExCnThin";
+        font-size: 60px;
+        font-weight: 100;
+    }
+
+    .ban-desc {
+        padding-top: 90px;
+        font-family: "GillSansIt";
+        font-size: 20;   
+    }
+
+    .read-more {
+        background-color: $site-blue;
+        color: $site-white;
+        width: 121px;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        text-transform: uppercase;
+        font-family: "GillSansReg";
+        font-size: 15px;
+    }
+}

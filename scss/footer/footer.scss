@@ -1,0 +1,60 @@
+footer {
+    max-width: $banner-footer-width;
+    width: 100%;
+    height: $nav-footer-height;
+    background-color: $site-blue;
+    margin: $center;
+    margin-top: 100px;
+    
+
+    .footer-container {
+        margin: $center;
+        padding-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $site-white;
+        max-width: $site-width;
+        width: 75%;
+
+        .logo {
+            width: 92px;
+            height: 42px;
+            border: solid white 2px;
+            color: $site-white;
+            text-align: center;
+            padding-top: 5px;
+            font-family: "GillSansReg";
+            font-size: 20px;
+        }
+    
+        .copy {
+            font-family: "GillSansReg";
+            font-size: 12px;
+        }
+    
+        .socials {
+            font-size: 22px;
+        }
+    }   
+}
+
+@media screen and (max-width: 550px) {
+    footer {
+        height: 190px;
+
+        .footer-container {
+            flex-direction: column;
+            width: 75%;
+
+            .copy {
+                margin-top: 20px;
+            }
+
+            .socials {
+                margin-top: 20px;
+            }
+            
+        }
+    }
+}
