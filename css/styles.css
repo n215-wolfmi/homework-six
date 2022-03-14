@@ -239,8 +239,6 @@ nav .links span {
   color: #FFFFFF;
   width: 370px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   width: 100%;
 }
 .info-box .ban-title {
@@ -461,6 +459,353 @@ footer .footer-container .socials {
   color: #79ADDC;
   font-family: "Proxima-Nova-ExCn-Thin";
   font-size: 20px;
+}
+
+.banner-tours {
+  max-width: 980px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+.banner-tours .tours-title {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  font-size: 60px;
+  font-family: ProximaNovaExCnThin;
+  letter-spacing: 5px;
+}
+
+.tour-boxes {
+  max-width: 818px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+}
+.tour-boxes .triple-tours1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours1 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours1 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours1 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours2 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours2 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours2 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours3 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours3 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours3 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours4 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours4 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours4 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours5 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours5 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours5 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours6 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours6 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours6 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours7 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours7 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours7 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours8 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours8 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours8 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.tour-boxes .triple-tours9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tour-boxes .triple-tours9 .triple-title {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 60px;
+  padding-top: 47px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours9 .triple-text {
+  font-family: "ProximaNovaExCnThin";
+  font-size: 30px;
+  margin: 0px;
+}
+.tour-boxes .triple-tours9 .learn-btn {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "GillSansReg";
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
 }
 
 /*# sourceMappingURL=styles.css.map */

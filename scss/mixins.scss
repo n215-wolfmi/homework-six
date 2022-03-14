@@ -1,0 +1,46 @@
+//GENERAL MIXINS
+@mixin site-button($cornerRadius: 25px, $btnPadding: 10px 20px) {
+    background-color: $site-blue;
+    padding: $btnPadding;
+    border-radius: $cornerRadius;
+    color: $site-white;
+    font-family: "GillSansReg";
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 56px
+}
+
+
+//TOURS PAGE
+@mixin triple-tours($bg-image: url(../images/tour/tour-01.jpg)) {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), $bg-image;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 304px;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+        
+    .triple-title {
+        font-family: "ProximaNovaExCnThin";
+        font-size: 60px;
+        padding-top: 47px;
+        margin: 0px;
+    }
+
+    .triple-text {
+        font-family: "ProximaNovaExCnThin";
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    .learn-btn {
+        @include site-button();
+    }
+}

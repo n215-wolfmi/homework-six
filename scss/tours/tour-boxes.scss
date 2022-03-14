@@ -1,0 +1,46 @@
+.tour-boxes {
+    max-width: $home-form-width;
+    color: $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+
+    .triple-tours1 {
+        @include triple-tours();
+    }
+
+    .triple-tours2 {
+        @include triple-tours($bg-image: url(../images/tour/tour-02.jpg))
+    }
+
+    .triple-tours3 {
+        @include triple-tours($bg-image: url(../images/tour/tour-03.jpg))
+    }
+
+    .triple-tours4 {
+        @include triple-tours($bg-image: url(../images/tour/tour-04.jpg))
+    }
+
+    .triple-tours5 {
+        @include triple-tours($bg-image: url(../images/tour/tour-05.jpg))
+    }
+
+    .triple-tours6 {
+        @include triple-tours($bg-image: url(../images/tour/tour-06.jpg))
+    }
+
+    .triple-tours7 {
+        @include triple-tours($bg-image: url(../images/tour/tour-07.jpg))
+    }
+
+    .triple-tours8 {
+        @include triple-tours($bg-image: url(../images/tour/tour-08.jpg))
+    }
+
+    .triple-tours9 {
+        @include triple-tours($bg-image: url(../images/tour/tour-09.jpg))
+    }
+}
