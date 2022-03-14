@@ -254,17 +254,20 @@ nav .links span {
   padding-top: 90px;
   font-family: "GillSansIt";
   font-size: 20;
+  margin-bottom: 25px;
 }
 .info-box .read-more {
   background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 0px;
   color: #FFFFFF;
-  width: 121px;
-  height: 40px;
-  margin-top: 25px;
-  border: none;
-  text-transform: uppercase;
   font-family: "GillSansReg";
   font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+  text-decoration: none;
 }
 
 .triple-box {
@@ -284,18 +287,20 @@ nav .links span {
 .triple-box .box-desc {
   font-family: "ProximaNovaExCnThin";
   font-size: 30px;
+  margin-bottom: 60px;
 }
 .triple-box .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #FFFFFF;
   font-family: "GillSansReg";
   font-size: 15px;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #79ADDC;
-  border: none;
-  width: 133px;
-  height: 40px;
-  border-radius: 25px;
-  margin-top: 55px;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 56px;
+  text-decoration: none;
 }
 .triple-box .country-box1 {
   width: 236px;

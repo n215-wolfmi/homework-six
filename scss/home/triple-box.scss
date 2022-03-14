@@ -16,19 +16,11 @@
     .box-desc {
         font-family: "ProximaNovaExCnThin";
         font-size: 30px;
+        margin-bottom: 60px;
     }
 
     .learn-more {
-        font-family: "GillSansReg";
-        font-size: 15px;
-        text-transform: uppercase;
-        color: $site-white;
-        background-color: $site-blue;
-        border: none;
-        width: 133px;
-        height: 40px;
-        border-radius: 25px;
-        margin-top: 55px;
+        @include site-button();
     }
 
     .country-box1 {

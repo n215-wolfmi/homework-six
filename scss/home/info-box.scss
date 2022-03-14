@@ -18,18 +18,11 @@
     .ban-desc {
         padding-top: 90px;
         font-family: "GillSansIt";
-        font-size: 20;   
+        font-size: 20; 
+        margin-bottom: 25px;  
     }
 
     .read-more {
-        background-color: $site-blue;
-        color: $site-white;
-        width: 121px;
-        height: 40px;
-        margin-top: 25px;
-        border: none;
-        text-transform: uppercase;
-        font-family: "GillSansReg";
-        font-size: 15px;
+        @include site-button($cornerRadius: 0px);  
     }
 }
