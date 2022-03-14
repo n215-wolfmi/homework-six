@@ -1,0 +1,28 @@
+.about-hero1 {@include about-hero(url(../images/tour/tour-01.jpg));}
+.about-hero2 {@include about-hero(url(../images/tour/tour-02.jpg));}
+.about-hero3 {@include about-hero(url(../images/tour/tour-03.jpg));}
+.about-hero4 {@include about-hero(url(../images/tour/tour-04.jpg));}
+.about-hero5 {@include about-hero(url(../images/tour/tour-05.jpg));}
+.about-hero6 {@include about-hero(url(../images/tour/tour-06.jpg));}
+.about-hero7 {@include about-hero(url(../images/tour/tour-07.jpg));}
+.about-hero8 {@include about-hero(url(../images/tour/tour-08.jpg));}
+.about-hero9 {@include about-hero(url(../images/tour/tour-09.jpg));}
+
+@media screen and (max-width: 1199px){
+    
+    .about-promo {
+        max-width: 298px;
+        margin: $center;
+        display: block;
+
+        .promo1 {margin-top: 40px;} .promo2 {margin-top: 40px;} .promo3 {margin-top: 40px;}
+        .promo4 {margin-top: 40px;} .promo5 {margin-top: 40px;} .promo6 {margin-top: 40px;}
+        .promo7 {margin-top: 40px;} .promo8 {margin-top: 40px;} .promo9 {margin-top: 40px;}
+        .promo10 {margin-top: 40px;} .promo11 {margin-top: 40px;} .promo12 {margin-top: 40px;}
+        .promo13 {margin-top: 40px;} .promo14 {margin-top: 40px;} .promo15 {margin-top: 40px;}
+        .promo16 {margin-top: 40px;} .promo17 {margin-top: 40px;} .promo18 {margin-top: 40px;}
+        .promo19 {margin-top: 40px;} .promo20 {margin-top: 40px;} .promo21 {margin-top: 40px;}
+        .promo22 {margin-top: 40px;} .promo23 {margin-top: 40px;} .promo24 {margin-top: 40px;}
+        .promo25 {margin-top: 40px;} .promo26 {margin-top: 40px;} .promo27 {margin-top: 40px;}
+    }
+}

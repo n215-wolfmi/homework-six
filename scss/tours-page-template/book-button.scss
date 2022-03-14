@@ -1,0 +1,9 @@
+.book-now {
+    max-width: $site-width;
+    margin: $center;
+    text-align: center;
+
+    .book-btn {
+        @include site-button();
+    }
+}

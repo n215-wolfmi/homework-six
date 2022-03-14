@@ -1,0 +1,55 @@
+.about-promo {
+    max-width: $site-width;
+    width: 75%;
+    min-height: 347px;
+    @include center();
+    margin-top: 140px;
+    margin-bottom: 40px;
+
+    .promo1 {@include promo();}
+    .promo2 {@include promo(url(../images/tour/tour-israel/israel-tour-02.jpg))}
+    .promo3 {@include promo(url(../images/tour/tour-israel/israel-tour-03.jpg))}
+    .promo4 {@include promo(url(../images/tour/tour-usa/usa-tour-01.jpg))}
+    .promo5 {@include promo(url(../images/tour/tour-usa/usa-tour-02.jpg))}
+    .promo6 {@include promo(url(../images/tour/tour-usa/usa-tour-03.jpg))}
+    .promo7 {@include promo(url(../images/tour/tour-aus/aus-tour-01.jpg))}
+    .promo8 {@include promo(url(../images/tour/tour-aus/aus-tour-02.jpg))}
+    .promo9 {@include promo(url(../images/tour/tour-aus/aus-tour-03.jpg))}
+    .promo10 {@include promo(url(../images/tour/tour-nz/nz-tour-01.jpg))}
+    .promo11 {@include promo(url(../images/tour/tour-nz/nz-tour-02.jpg))}
+    .promo12 {@include promo(url(../images/tour/tour-nz/nz-tour-03.jpg))}
+    .promo13 {@include promo(url(../images/tour/tour-france/france-tour-01.jpg))}
+    .promo14 {@include promo(url(../images/tour/tour-france/france-tour-02.jpg))}
+    .promo15 {@include promo(url(../images/tour/tour-france/france-tour-03.jpg))}
+    .promo16 {@include promo(url(../images/tour/tour-egypt/egypt-tour-01.jpg))}
+    .promo17 {@include promo(url(../images/tour/tour-egypt/egypt-tour-02.jpg))}
+    .promo18 {@include promo(url(../images/tour/tour-egypt/egypt-tour-03.jpg))}
+    .promo19 {@include promo(url(../images/tour/tour-japan/japan-tour-01.jpg))}
+    .promo20 {@include promo(url(../images/tour/tour-japan/japan-tour-02.jpg))}
+    .promo21 {@include promo(url(../images/tour/tour-japan/japan-tour-03.jpg))}
+    .promo22 {@include promo(url(../images/tour/tour-canada/canada-tour-01.jpg))}
+    .promo23 {@include promo(url(../images/tour/tour-canada/canada-tour-02.jpg))}
+    .promo24 {@include promo(url(../images/tour/tour-canada/canada-tour-03.jpg))}
+    .promo25 {@include promo(url(../images/tour/tour-uae/uae-tour-01.jpg))}
+    .promo26 {@include promo(url(../images/tour/tour-uae/uae-tour-02.jpg))}
+    .promo27 {@include promo(url(../images/tour/tour-uae/uae-tour-03.jpg))}
+}
+
+@media screen and (max-width: 1199px){
+    
+    .about-promo {
+        max-width: 298px;
+        margin: $center;
+        display: block;
+
+        .promo1 {
+            margin-top: 40px;
+        }
+        .promo2 {
+            margin-top: 40px;
+        }
+        .promo3 {
+            margin-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.day-info {
+    max-width: $site-width;
+    margin: $center;
+    width: 75%; 
+    margin-bottom: 88px;
+    margin-top: 40px;
+
+    .day-header { 
+
+        .day-title {
+            font-size: 60px;
+            font-family: 'Proxima-Nova-ExCn-Thin';
+            letter-spacing: 3px;
+        }
+
+        hr {
+            color: $site-black;
+            width: 171px;
+            margin-bottom: 37px;
+            margin-top: -16px;
+        }
+
+        p {
+            font-family: 'GillSansReg';
+            font-size: 16px;
+        }
+    }
+}

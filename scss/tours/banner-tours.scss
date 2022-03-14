@@ -1,21 +1,18 @@
 .banner-tours {
     max-width: 980px;
+    width: 75%;
     height: 200px;
     background-image: 
         linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
         url(../images/tour/tours-header.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include backg-center();
     color: white;
     margin: $center;
     margin-top: 50px;
-    position: relative;
+    text-align: center;
+    padding-top: 65px;
     
     .tours-title {
-        position: absolute;
-        left: 50%;
-        top: 35%;
         font-size: 60px;
         font-family: ProximaNovaExCnThin;
         letter-spacing: 5px;
